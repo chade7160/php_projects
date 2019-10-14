@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form name = "form1" action="save.php" method="post">
+        <p>
+            회원 가입을 해 주세요
+            <input type="hidden" name="grade" value="human">
+        </p>
+        <p> 이름 : <input type="text" name="name"></p>
+        <p> 비밀번호: <input type="password" name="pass"></p>
+        <p> 결혼여부: 미혼 <input type="radio" name="merry" value="미혼" checked>
+                     기혼&nbsp; <input type="radio" name="merry" value="기혼"</p>
+        <P> 차량 소유: <input type="checkbox" name="car" value="YES">(있을 경우에만 체크)</P>
+        <p> 학벌: <select name="study" size="1">
+            <option value="고졸">고졸</option>
+            <option value="대졸">대졸</option>
+            <option value="대학원">대학원</option>
+        </select></p>
+        <p>자기소개</p>
+    <p><textarea name="intro" rows="6" cols="36"></textarea></p>
+    <p><input type="image" name="formimage1" src="button_ok.gif" width="66" height="19" border="0"></p>
+    </form>
+</body>
+</html>
